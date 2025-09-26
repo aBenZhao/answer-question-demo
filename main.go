@@ -8,7 +8,6 @@ import (
 
 // 主函数，程序的入口点
 func main() {
-	// 调用runPalindromic函数，并传入一个整数切片
-	// 该切片是一个回文数列，从5递减到1再递增回5
+	//题目一：判断一个整数是否是回文数（考察：数字操作、条件判断、循环）
 	answer_one.RunPalindromic(0)
 }
