@@ -1,7 +1,7 @@
 package main
 
 import (
-	"answer-question-demo/answer_six"
+	"answer-question-demo/answer_seven"
 	"fmt"
 )
 
@@ -25,5 +25,7 @@ func main() {
 
 	// 题目六：合并区间：以数组 intervals 表示若干个区间的集合，其中单个区间为 intervals[i] = [starti, endi] 。
 	// 请你合并所有重叠的区间，并返回一个不重叠的区间数组，该数组需恰好覆盖输入中的所有区间。
-	fmt.Println(answer_six.MergeIntervals([][]int{{4, 7}, {1, 4}}))
+	//fmt.Println(answer_six.MergeIntervals([][]int{{4, 7}, {1, 4}}))
+
+	fmt.Println(answer_seven.ArrValueTwoSumTarget([]int{3, 3}, 6))
 }
