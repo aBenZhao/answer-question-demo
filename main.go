@@ -1,7 +1,7 @@
 package main
 
 import (
-	"answer-question-demo/answer_five"
+	"answer-question-demo/answer_six"
 	"fmt"
 )
 
@@ -21,5 +21,9 @@ func main() {
 	//answer_four.IncrementIntegerArr([]int64{9, 9, 0, 1, 9})
 
 	// 题目五：给定一个排序数组，你需要在原地删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
-	fmt.Println(answer_five.DeleteDuplicateItems([]int{1, 1, 2, 2, 3, 3, 4, 5, 5}))
+	//fmt.Println(answer_five.DeleteDuplicateItems([]int{1, 1, 2, 2, 3, 3, 4, 5, 5}))
+
+	// 题目六：合并区间：以数组 intervals 表示若干个区间的集合，其中单个区间为 intervals[i] = [starti, endi] 。
+	// 请你合并所有重叠的区间，并返回一个不重叠的区间数组，该数组需恰好覆盖输入中的所有区间。
+	fmt.Println(answer_six.MergeIntervals([][]int{{4, 7}, {1, 4}}))
 }
