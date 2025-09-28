@@ -27,5 +27,5 @@ func main() {
 	// 请你合并所有重叠的区间，并返回一个不重叠的区间数组，该数组需恰好覆盖输入中的所有区间。
 	//fmt.Println(answer_six.MergeIntervals([][]int{{4, 7}, {1, 4}}))
 
-	fmt.Println(answer_seven.ArrValueTwoSumTarget([]int{3, 3}, 6))
+	fmt.Println(answer_seven.ArrValueTwoSumTarget([]int{3, 2, 4}, 6))
 }
