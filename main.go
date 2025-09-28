@@ -1,6 +1,9 @@
 package main
 
-import "answer-question-demo/answer_four"
+import (
+	"answer-question-demo/answer_five"
+	"fmt"
+)
 
 // 主函数，程序的入口点
 func main() {
@@ -15,5 +18,8 @@ func main() {
 	//fmt.Println(prefix)
 
 	// 题目四：给定一个由整数组成的非空数组所表示的非负整数，在该数的基础上加一
-	answer_four.IncrementIntegerArr([]int64{9, 9, 0, 1, 9})
+	//answer_four.IncrementIntegerArr([]int64{9, 9, 0, 1, 9})
+
+	// 题目五：给定一个排序数组，你需要在原地删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
+	fmt.Println(answer_five.DeleteDuplicateItems([]int{1, 1, 2, 2, 3, 3, 4, 5, 5}))
 }
